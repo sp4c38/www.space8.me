@@ -254,7 +254,7 @@ h5.in-title {
 .banner {
 	background: #6749de;
 	background: #e7c13c;
-	background: url(../images/banner.png) no-repeat center #4b49de;
+	background: url(../images/banner.png) no-repeat center #000000;
 	background-size: cover;
 	min-height: 100vh;
 }
@@ -285,11 +285,10 @@ h3.agile-title {
 }
 
 /* The following is all you really need for the effect to work */
-.backbox h4 {
+.backbox {
     font-family: 'Montserrat', sans-serif;
-    text-transform: capitalize;
     font-size: 2.3rem;
-    top: 16rem;
+    margin-top: 30%;
     font-weight: bold;
     color: #ffeb3b;
     padding: 0.0625rem;
@@ -301,8 +300,12 @@ h3.agile-title {
     background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0));
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0));
 }
-.bb-text {
-	color: #fff;
+
+.bb-image {
+	max-width: 20%;
+	margin-top: 1%;
+	margin-left: -30px;
+
 }
 
 .backbox:before {
@@ -1080,7 +1083,7 @@ button.btn.btn-agile.btn-block.w-25 {
 	h5.in-title {
 		padding: 30vw 0 0;
 	}
-	li.cat-item-1:before, li.cat-item-2:before, li.cat-item-3:before, li.cat-item-4:before {	
+	li.cat-item-1:before, li.cat-item-2:before, li.cat-item-3:before, li.cat-item-4:before {
 		padding-right: 0.5rem;
 	}
 	.portfolio-area li {

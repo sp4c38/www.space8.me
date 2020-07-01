@@ -102,7 +102,7 @@ div#menu li.active a {
     color: #4b49de;
 }
 nav.navbar.fixed-top.navbar-expand-lg.navbar-light.navbar-fixed-top {
-	background: none;
+	background: #ffffff;
 	border: none;
 	padding: 1em;
 	-webkit-transition: .5s all;
@@ -118,7 +118,7 @@ h1.wthree-logo {
 h1.wthree-logo a {
 	text-transform: capitalize;
 	font-size: 0.7em;
-	color: #fff;
+	color: #000000;
 	letter-spacing: 0.5px;
 	font-weight: 600;
 }
